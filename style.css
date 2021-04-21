@@ -1,3 +1,57 @@
+* {
+  transition: 0.15s;
+  transition-timing-function: ease-out;
+}
 body {
-  background-color: black;
+  height: 500vh;
+  width: 100vw;
+  background-color: #2b2b2b;
+  overflow-x: hidden;
+}
+.flot {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+#bday {
+  width: 60vw;
+  height: auto;
+  top: calc(50% - (20vh/2));
+  left: calc(50% - (60vw/2));
+  z-index:99;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#ashe {
+  width: 3%;
+  height: auto;
+  top: 130%;
+  left: 20%;
+}
+#teemo {
+  width: 5%;
+  height: auto;
+  top: 230%;
+  left: 10%;
+}
+#lee {
+  width: 6%;
+  height: auto;
+  top: 330%;
+  left: 19%;
+}
+#floater3 {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  top: 150%;
+  left: 30%;
+}
+#bf {
+  width: 30%;
+  height: auto;
+  top: 180%;
+  left: 65%;
 }
