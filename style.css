@@ -9,15 +9,29 @@ body {
   overflow-x: hidden;
 }
 .flot {
-  width: 100px;
-  height: 100px;
   position: absolute;
+  z-index: 90;
+}
+.med {
+  position: absolute;
+  z-index: 50;
+}
+.bac {
+  position: absolute;
+  z-index: 1;
+}
+.smol {
+  width: 2%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
 }
 #bday {
   width: 60vw;
   height: auto;
   top: calc(50% - (20vh/2));
   left: calc(50% - (60vw/2));
+  position: absolute;
   z-index:99;
 }
 img {
@@ -42,16 +56,33 @@ img {
   top: 330%;
   left: 19%;
 }
-#floater3 {
-  background-color: red;
-  width: 150px;
-  height: 150px;
-  top: 150%;
-  left: 30%;
-}
 #bf {
   width: 30%;
   height: auto;
   top: 180%;
   left: 65%;
+}
+#toilet {
+  width: 30%;
+  height: auto;
+  top: 290%;
+  left: 7%;
+}
+#bed {
+  width: 50%;
+  height: auto;
+  top: 430%;
+  left: 30%;
+}
+#toast {
+  width: 30%;
+  height: auto;
+  top: 180%;
+  left: 30%;
+}
+#switz {
+  width: 30%;
+  height: auto;
+  top: 250%;
+  left: 60%;
 }
