@@ -3,10 +3,27 @@
   transition-timing-function: ease-out;
 }
 body {
-  height: 500vh;
+  height: 487vh;
   width: 100vw;
   background-color: #2b2b2b;
   overflow-x: hidden;
+}
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #2b2b2b;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
+  background-color: #999;
 }
 .flot {
   position: absolute;
@@ -74,6 +91,24 @@ img {
   top: 430%;
   left: 30%;
 }
+#avatar {
+  width: 40%;
+  height: auto;
+  top: 550%;
+  left: 30%;
+}
+#dream {
+  width: 35%;
+  height: auto;
+  top: 550%;
+  left: 60%;
+}
+#omid {
+  width: 35%;
+  height: auto;
+  top: 900%;
+  left: 10%;
+}
 #toast {
   width: 30%;
   height: auto;
@@ -85,4 +120,58 @@ img {
   height: auto;
   top: 250%;
   left: 60%;
+}
+#sponge1 {
+  width: 20%;
+  height: auto;
+  top: 210%;
+  left: 70%;
+}
+#sponge2 {
+  width: 15%;
+  height: auto;
+  top: 280%;
+  left: 35%;
+}
+#sponge3 {
+  width: 12%;
+  height: auto;
+  top: 330%;
+  left: 80%;
+}
+#pee {
+  width: 20%;
+  height: auto;
+  top: 340%;
+  left: 15%;
+}
+#mercury {
+  width: 20%;
+  height: auto;
+  top: 410%;
+  left: 10%;
+}
+#ear {
+  width: 20%;
+  height: auto;
+  top: 500%;
+  left: 5%;
+}
+#garfield {
+  width: 20%;
+  height: auto;
+  top: 740%;
+  left: 35%;
+}
+#sad {
+  width: 20%;
+  height: auto;
+  top: 600%;
+  left: 75%;
+}
+#penguin {
+  width: 20%;
+  height: auto;
+  top: 590%;
+  left: 65%;
 }
